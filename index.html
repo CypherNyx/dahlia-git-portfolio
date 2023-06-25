@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dahlia's Git Portfolio</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Asap&family=Roboto+Mono:wght@500&family=Wix+Madefor+Text:wght@500&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -13,9 +19,9 @@
     <h1>Dahlia Guido</h1>
     <nav class="navbar">
       <ul>
-        <li class="menu-item"><a href="#">About Me</a></li>
-        <li class="menu-item"><a href="#">Work</a></li>
-        <li class="menu-item"><a href="#">Contact Me</a></li>
+        <li class="menu-item"><a href="#about-me"><button>About Me</button></a></li>
+        <li class="menu-item"><a href="#my-work"><button>Projects</button></a></li>
+        <li class="menu-item"><a href="#contact-me"><button>Contact Me</button></a></li>
 
       </ul>
     </nav>
@@ -33,7 +39,7 @@
     <!--The about-me section has a small paragraph about Dahlia-->
     <section class="content" id="about-me">
       <div class="title">
-        <h2>About <br>Me</h2>
+        <h2>About Me</h2>
       </div>
       <div class="sub-content">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo repellat nisi unde quia odio aut atque facilis
@@ -50,17 +56,54 @@
     <!--The my-work section has img and links to the 4 projects highlighted -->
     <section class="content" id="my-work">
       <div class="title">
-        <h2>My<br>Work</h2>
+        <h2>Projects</h2>
       </div>
-      <div class="sub-content"></div>
+      <div class="sub-content">
+
+        <div class="portfolio-item" id="horiseon">
+          <a href="https://cyphernyx.github.io/horiseon-accessibility-improvements/" target="_blank">
+            <h3 class="item-label">Horiseon Code Refactor</h3>
+          </a>
+        </div>
+
+
+        <div class="rsvp portfolio-item">
+          <a href="https://cyphernyx.github.io/HTML-Simple-landing-page/" target="_blank">
+            <h3 class="item-label">RSVP Page</h3>
+          </a>
+        </div>
+
+
+
+        <div class="prework portfolio-item"><a href="https://cyphernyx.github.io/prework-study-guide/" target="_blank">
+            <h3 class="item-label">Pre-Work</h3>
+          </a></div>
+
+
+        <div class="student-bio portfolio-item">
+          <a href="https://cyphernyx.github.io/student-bio/" target="_blank">
+            <h3 class="item-label">Student Bio</h3>
+          </a>
+        </div>
+
+
+      </div>
     </section>
 
     <!--The contact-me section has links-->
     <section class="content" id="contact-me">
       <div class="title">
-        <h2>Contact<br>Me</h2>
+        <h2>Contact Me</h2>
       </div>
-      <div class="sub-content"></div>
+      <div class="sub-content">
+        <ul>
+          <li href="#" target="_blank">Call me<br> 713-555-5555</li>
+          <li href="#" target="_blank">Send me a message <br> dguido.dev@gmail.com</li>
+          <li href="#" target="_blank">Checkout my projects<br> GitHub Profile</li>
+          <li href="#" target="_blank">Find me on Twitter <br>@DGuidoDev</li>
+
+        </ul>
+      </div>
     </section>
   </main>
 
