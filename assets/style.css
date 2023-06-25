@@ -11,14 +11,19 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 40px 0 40px;
-  height: 5rem;
-  border-bottom: 5px solid #d42e81;
+  height: 5%;
+  border-bottom: 10px ridge #398fd9;
+
 }
 
 h1 {
   color: #F1FAEE;
-  font-size: 2.3rem;
+  font-size: 3rem;
   font-family: monospace;
+}
+
+h2 {
+  text-align: right;
 }
 
 header nav ul {
@@ -31,22 +36,33 @@ header nav ul {
   font-family: arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
+  padding: 33px 27px;
+}
+
+.menu-item:hover {
+  background-color: #457B9D;
+  text-decoration: underline #fff;
 }
 
 .menu-item a {
-  color: #A8DADC;
+  color: #F1FAEE;
   text-decoration: none;
 }
 
+.menu-item a:hover {
+  color: #fff;
+}
+
+
 #intro {
   background-color: #21213c;
-  background-image: url(./giphy.webp);
+  background-image: url(./giphy-sparkle.webp);
 }
 
 #intro img {
   border-radius: 50%;
   margin: 2%;
-  border: 11px double #398fd9;
+  border: 11px double #457B9D;
 }
 
 /*This are the style rules for the main content section*/
