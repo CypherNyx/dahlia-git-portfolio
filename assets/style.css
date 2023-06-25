@@ -1,0 +1,72 @@
+body {
+  background-color: #F1FAEE;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+/* Header and Navbar rules affect site's title and top navigation bar*/
+header {
+  background-color: #1D3557;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px 0 40px;
+  height: 5%;
+  border-bottom: 10px ridge #398fd9;
+
+}
+
+h1 {
+  color: #F1FAEE;
+  font-size: 3rem;
+  font-family: monospace;
+}
+
+h2 {
+  text-align: right;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-item {
+  margin-left: 54px;
+  font-family: arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 33px 27px;
+}
+
+.menu-item:hover {
+  background-color: #457B9D;
+  text-decoration: underline #fff;
+}
+
+.menu-item a {
+  color: #F1FAEE;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  color: #fff;
+}
+
+
+#intro {
+  background-color: #21213c;
+  background-image: url(./giphy-sparkle.webp);
+}
+
+#intro img {
+  border-radius: 50%;
+  margin: 2%;
+  border: 11px double #457B9D;
+}
+
+/*This are the style rules for the main content section*/
+.content {
+  max-width: 75%;
+  position: relative;
+}
