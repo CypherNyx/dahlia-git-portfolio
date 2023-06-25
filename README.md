@@ -2,7 +2,7 @@
 Module 02 Challenge. Create a functional portfolio.
 
 ## Usage
-Link to the deployed site: [Click here!]('https://cyphernyx.github.io/dahlia-git-portfolio/')
+Link to the deployed site: [Click here!](https://cyphernyx.github.io/dahlia-git-portfolio/)
 
 
 ![page wireframe](./assets/images/module-2-challenge-wireframe.png)
