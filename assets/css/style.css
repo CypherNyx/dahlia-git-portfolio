@@ -86,14 +86,14 @@ button:hover {
 #intro {
   background-color: #21213c;
   background-image: url(../images/giphy-sparkle.webp);
-  background-size: 16%;
+  background-size: 17%;
   display: flex;
   justify-content: center;
 }
 
 #intro img {
   border-radius: 50%;
-  margin: 2%;
+  margin: 6%;
   border: 11px double #457B9D;
 }
 
