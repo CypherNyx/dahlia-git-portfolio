@@ -277,3 +277,35 @@ footer p {
   display: flex;
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: block;
+    max-width: 100%;
+
+  }
+
+  .title {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sub-content {
+
+    max-width: 100%;
+    padding-right: 7%;
+    justify-content: center;
+
+  }
+
+  .sub-content div {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  #contact-me div.sub-content ul {
+    display: block;
+  }
+
+
+}
