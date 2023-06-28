@@ -161,11 +161,18 @@ button:hover {
 
 }
 
+.sub-content div.cheatsheet {
+  background-image: url(../images/github-io-css-cheatsheet.png);
+  background-size: cover;
+
+}
+
+/* 
 .sub-content div.student-bio {
   background-image: url(../images/github-io-student-bio.png);
   background-size: cover;
 
-}
+} */
 
 /*Portfolio items and laels*/
 .portfolio-item {
