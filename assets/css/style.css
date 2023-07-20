@@ -141,14 +141,33 @@ button:hover {
   margin: 4% 0px;
 }
 
-.sub-content div#horiseon {
+.sub-content div#featuredProject {
   margin-right: 0;
   flex-basis: 100%;
-  background-image: url(../images/github-io-horiseon.png);
+  background-image: url(../images/BookHub.png);
   background-size: cover;
   height: 400px;
 }
 
+.sub-content div.forecaster {
+  background-image: url(../images/screencapture-forecaster-js.png);
+  background-size: cover;
+
+}
+
+.sub-content div.quiz {
+  background-image: url('https://github.com/CypherNyx/javascript-code-quiz/raw/main/assets/images/01_screencapture-cyphernyx-github-io-javascript-code-quiz.png');
+  background-size: cover;
+
+}
+
+.sub-content div.password {
+  background-image: url(../images/screencapture-password-generator.png);
+  background-size: cover;
+
+}
+
+/**/
 .sub-content div.rsvp {
   background-image: url(../images/github-io-HTML-Simple-landing-page.png);
   background-size: cover;
