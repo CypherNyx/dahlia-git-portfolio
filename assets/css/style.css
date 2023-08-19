@@ -144,9 +144,15 @@ button:hover {
 .sub-content div#featuredProject {
   margin-right: 0;
   flex-basis: 100%;
-  background-image: url(../images/BookHub.png);
+  background-image: url(../images/pawfect_match.png);
   background-size: cover;
   height: 400px;
+}
+
+.sub-content div.bookhub {
+  background-image: url(../images/BookHub.png);
+  background-size: cover;
+
 }
 
 .sub-content div.forecaster {
