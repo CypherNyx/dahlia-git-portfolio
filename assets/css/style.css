@@ -131,7 +131,7 @@ button:hover {
 
 /*Portfolio item boxes styling*/
 .sub-content div {
-  width: 300px;
+  width: 30%;
   height: 200px;
   /* max-width: 300px; */
   text-align: center;
@@ -141,12 +141,20 @@ button:hover {
   margin: 4% 0px;
 }
 
-.sub-content div#featuredProject {
+
+a>div.portfolio-item#featuredProject {
   margin-right: 0;
   flex-basis: 100%;
   background-image: url(../images/pawfect_match.png);
   background-size: cover;
   height: 400px;
+  width: 100%;
+  }
+
+#my-work > div.sub-content > a
+{
+  flex-basis: 100%;
+  
 }
 
 .sub-content div.bookhub {
@@ -221,7 +229,7 @@ button:hover {
 
 
 h3.item-label {
-  display: block;
+  display: none;
   padding: 1em 3em;
   text-align: center;
   border: 5px inset #ff7d00;
