@@ -130,12 +130,12 @@ button:hover {
 }
 
 /*Portfolio item boxes styling*/
-.sub-content div {
-  width: 30%;
-  height: 200px;
-  /* max-width: 300px; */
+.sub-content div,
+.sub-content ul {
+
+  height: 250px;
   text-align: center;
-  flex-basis: 30%;
+  flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
   margin: 4% 0px;
@@ -149,55 +149,73 @@ a>div.portfolio-item#featuredProject {
   background-size: cover;
   height: 400px;
   width: 100%;
-  }
-
-#my-work > div.sub-content > a
-{
-  flex-basis: 100%;
-  
 }
 
-.sub-content div.bookhub {
+#my-work>div.sub-content>a {
+  flex-basis: 100%;
+}
+
+#my-work>div.sub-content>div>a,
+#forecaster>a {
+  width: 100%;
+}
+
+#bookhub {
   background-image: url(../images/BookHub.png);
   background-size: cover;
+  background-position: top;
+  border-radius: 1em;
+  margin-top: -0.15%;
 
 }
 
-.sub-content div.forecaster {
+#forecaster {
   background-image: url(../images/screencapture-forecaster-js.png);
   background-size: cover;
-
+  background-position: top;
+  margin-top: -0.15%;
+  border-radius: 1em;
 }
 
-.sub-content div.quiz {
+#quiz {
   background-image: url('https://github.com/CypherNyx/javascript-code-quiz/raw/main/assets/images/01_screencapture-cyphernyx-github-io-javascript-code-quiz.png');
   background-size: cover;
-
+  background-position: top;
+  border-radius: 1em;
+  margin-top: -0.15%;
 }
 
-.sub-content div.password {
+#password {
   background-image: url(../images/screencapture-password-generator.png);
   background-size: cover;
-
+  background-position: top;
+  border-radius: 1em;
+  margin-top: -0.15%;
 }
 
 /**/
-.sub-content div.rsvp {
+#rsvp {
   background-image: url(../images/github-io-HTML-Simple-landing-page.png);
   background-size: cover;
-
+  background-position: top;
+  border-radius: 1em;
+  margin-top: -0.15%;
 }
 
-.sub-content div.prework {
+#prework {
   background-image: url(../images/github-io-prework-study-guide.png);
   background-size: cover;
-
+  background-position: top;
+  border-radius: 1em;
+  margin-top: -0.15%;
 }
 
-.sub-content div.cheatsheet {
+#cheatsheet {
   background-image: url(../images/github-io-css-cheatsheet.png);
   background-size: cover;
-
+  background-position: top;
+  border-radius: 1em;
+  margin-top: -0.15%;
 }
 
 /* 
@@ -226,7 +244,24 @@ a>div.portfolio-item#featuredProject {
   opacity: 1;
 }
 
+ul.project-detail {
+  list-style-type: none;
+  text-align: center;
+  height: fit-content;
+  display: block;
+}
 
+#my-work>div.sub-content>ul>li>span.project-header {
+  color: #5bb0e1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.62rem;
+}
+
+#my-work>div.sub-content>ul>li>a {
+  color: #ff7d00;
+  line-height: 2rem;
+}
 
 h3.item-label {
   display: none;
