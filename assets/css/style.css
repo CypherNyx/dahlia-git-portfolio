@@ -221,7 +221,7 @@ button:hover {
 
 
 h3.item-label {
-  display: block;
+  display: none;
   padding: 1em 3em;
   text-align: center;
   border: 5px inset #ff7d00;
