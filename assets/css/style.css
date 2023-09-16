@@ -184,6 +184,13 @@ a>div.portfolio-item#featuredProject {
   border-radius: 1em;
   margin-top: -0.15%;
 }
+#village {
+  background-image: url(../images/screencapture-the-village-01-login-page.png);
+  background-size: cover;
+  background-position: top;
+  border-radius: 1em;
+  margin-top: -0.15%;
+}
 
 #password {
   background-image: url(../images/screencapture-password-generator.png);
